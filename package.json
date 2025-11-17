@@ -1,0 +1,13 @@
+{
+  "name": "hospital-management-system",
+  "version": "1.0.0",
+  "description": "A complete Hospital Management System with React and Node.js",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm --prefix backend run dev\" \"npm --prefix frontend start\"",
+    "start": "concurrently \"npm --prefix backend start\" \"npm --prefix frontend start\""
+  },
+  "keywords": ["hospital", "management", "system"],
+  "author": "Rayhan",
+  "license": "MIT"
+}
